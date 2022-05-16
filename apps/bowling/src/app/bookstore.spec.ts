@@ -11,12 +11,13 @@ describe('Bookstore', () => {
   });
 
   test('all zero',()=>{
-      bookstore.sell(0);
+      bookstore.sell("HarryPotter1",0);
       expect(bookstore.total_price).toBe(0);  
   })
   test('sell one',()=>{
-    bookstore.sell(1);
+    bookstore.sell("HarryPotter1",1);
     expect(bookstore.total_price).toBe(100);  
   })
+
 
 });
