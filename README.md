@@ -1,4 +1,46 @@
 
+# W12Testing Homework
+Question : [Potter Kata](https://ihower.tw/blog/archives/8162
+
+Code Path: apps/bowling/src/app/bookstore.ts
+Test Code Path: apps/bowling/src/app/bookstore.spec.ts
+
+Commit History: 
+```
+commit c42264d725921e662879d80cf359d9192e59bd46 (HEAD -> bookstore)
+    All Test OK
+
+commit 872d3067dd00f6fe0ff1560c95046e34e047b085
+    [TEST OK] '第一集買 1 本、第二集買 2 本、第三集買 3 本、第四集買 4 本、第五集買 5 本、第六集買 6 本'
+
+commit 519604c4d1942027abcfc69932210ec54617b25d
+    [TEST OK] '第一集買 1 本、第二集買 2 本、第三集買 3 本、第四集買 4 本、第五集買 5 本'
+
+commit 687667258d036cc5a72658f897d72a43bae928ce
+    [TEST OK] '第一集買 1 本、第二集買 2 本、第三集買 3 本、第四集買 4 本'
+
+commit b73bd6b6cf9b44218ee0d5b6d800f52858e9f37a
+    [TEST OK] 第一集買 1 本、第二集買 2 本、第三集買 3 本
+
+commit 4c1e8f0c49977bc6d9481300cf08e70974807fbd
+    [TEST OK] 第一集買 1 本、第二集買 2 本
+
+commit ca7dfffd2157b8431b764aa9ba52edb4b9793820
+    test sell two book ok
+
+commit 682cd3dada7150fade8dc2f03e602e45eb642124
+    add book title
+
+commit 3549a4515f32815a25e3ed2523a8393804cf5fd8
+    bookstore sell one book ok
+
+commit df0cc80ac455255af421aa8d7497deff2687f7b5 (origin/master, origin/HEAD, master)
+    Merge branch 'master' of github.com:john12458/w12-testing
+
+```
+
+
+
 
 # W12Testing
 
