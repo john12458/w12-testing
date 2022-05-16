@@ -18,6 +18,10 @@ describe('Bookstore', () => {
     bookstore.sell("HarryPotter1",1);
     expect(bookstore.total_price).toBe(100);  
   })
-
+    test('sell two',()=>{
+    bookstore.sell("HarryPotter1",1);
+    bookstore.sell("HarryPotter2",1);
+    expect(bookstore.total_price).toBe(190);  
+  })
 
 });
