@@ -10,10 +10,23 @@ describe('Bookstore', () => {
     expect(bookstore).toBeTruthy();
   });
 
-  test('all zero',()=>{
+  test('one zero',()=>{
       bookstore.sell("HarryPotter1",0);
       expect(bookstore.total_price).toBe(0);  
   })
+  test('all zero',()=>{
+    bookstore.sell("HarryPotter1",0);
+    bookstore.sell("HarryPotter2",0);
+    bookstore.sell("HarryPotter3",0);
+    bookstore.sell("HarryPotter4",0);
+    bookstore.sell("HarryPotter5",0);
+    bookstore.sell("HarryPotter6",0);
+    expect(bookstore.total_price).toBe(0);  
+  })
+  test('without call sell()',()=>{
+    expect(bookstore.total_price).toBe(0);  
+  })
+  
   test('第一集買 1 本',()=>{
     bookstore.sell("HarryPotter1",1);
     expect(bookstore.total_price).toBe(100);  
@@ -58,5 +71,6 @@ describe('Bookstore', () => {
     bookstore.sell("HarryPotter6",6);
     expect(bookstore.total_price).toBe(1975);  
   })
+ 
 
 });
