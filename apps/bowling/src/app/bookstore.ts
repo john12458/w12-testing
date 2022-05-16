@@ -9,8 +9,14 @@ export class Bookstore {
         else if(num_book !== 0)
             this._sell_book_list[book_title] = num_book;
     }
-    _price_discount(price: number,num_book: number): number {
+    _price_discount(price: number,num_book: number, one_book_price = 100): number {
         switch (num_book) {
+            case 0:
+                price = 0
+                break
+            case 1:
+                price = price
+                break
             case 2:
                 price = price * 0.95
                 break;
@@ -23,7 +29,8 @@ export class Bookstore {
             case 5: 
                 price = price * 0.75
                 break;
-            default:
+            default: // > 5
+                price = price - one_book_price * 5 * 0.25
                 break;
         }
         return price
