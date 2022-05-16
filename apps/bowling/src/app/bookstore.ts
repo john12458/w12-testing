@@ -20,6 +20,9 @@ export class Bookstore {
             case 4: 
                 price = price * 0.8
                 break;
+            case 5: 
+                price = price * 0.75
+                break;
             default:
                 break;
         }
