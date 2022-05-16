@@ -28,5 +28,11 @@ describe('Bookstore', () => {
     bookstore.sell("HarryPotter2",2);
     expect(bookstore.total_price).toBe(290);  
   })
+  test('第一集買 1 本、第二集買 2 本、第三集買 3 本',()=>{
+    bookstore.sell("HarryPotter1",1);
+    bookstore.sell("HarryPotter2",2);
+    bookstore.sell("HarryPotter3",3);
+    expect(bookstore.total_price).toBe(570);  
+  })
 
 });
