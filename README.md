@@ -1,9 +1,15 @@
 
 # W12Testing Homework
-Question : [Potter Kata](https://ihower.tw/blog/archives/8162
+Question : [Potter Kata](https://ihower.tw/blog/archives/8162)
 
-Code Path: apps/bowling/src/app/bookstore.ts
-Test Code Path: apps/bowling/src/app/bookstore.spec.ts
+Code Path: 
+  - Code: [apps/bowling/src/app/bookstore.ts](https://github.com/john12458/w12-testing/tree/master/apps/bowling/src/app/bookstore.ts)
+  - Test: [apps/bowling/src/app/bookstore.spec.ts](https://github.com/john12458/w12-testing/tree/master/apps/bowling/src/app/bookstore.spec.ts)
+
+Test Command:
+```
+npx nx test bowling --test-file=bookstore.spec.ts  
+```
 
 Commit History: 
 ```
@@ -39,7 +45,7 @@ commit df0cc80ac455255af421aa8d7497deff2687f7b5 (origin/master, origin/HEAD, mas
 
 ```
 
-
+---
 
 
 # W12Testing
